@@ -1,0 +1,65 @@
+body {
+    font-family: "Nunito", sans-serif;
+}
+
+@font-face {
+    font-family: 'cosy_sansno_shade';
+    src: url('copy_of_cosysans-no_shade-1-webfont.woff2') format('woff2'),
+         url('copy_of_cosysans-no_shade-1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    color: #5EBEFF;
+
+}
+
+h1, h2, h3 {
+    font-family: 'cosy_sansno_shade';
+    src: url('copy_of_cosysans-no_shade-1-webfont.woff2') format('woff2'),
+         url('copy_of_cosysans-no_shade-1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    color: #5EBEFF;
+}
+
+h2 {
+    color: #5EBEFF;
+}
+
+header h2 {
+    color: #CEC8FF;
+}
+
+.site-footer {
+    background-image: #5DA466;
+    padding: 20px 0;
+}
+
+.navbar {
+    margin: 0;
+    padding: 10px;
+    background-image: url("img/squiggle-small.jpg") !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.nav-item .nav-link {
+    color: #5EBEFF !important;
+}
+
+.hero-image {
+    background-image: url('img/worms-hero.gif');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
