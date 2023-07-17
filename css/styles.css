@@ -8,17 +8,16 @@ body {
          url('copy_of_cosysans-no_shade-1-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    color: #5EBEFF;
-
 }
 
-h1, h2, h3 {
+h1, h2 {
     font-family: 'cosy_sansno_shade';
-    src: url('copy_of_cosysans-no_shade-1-webfont.woff2') format('woff2'),
-         url('copy_of_cosysans-no_shade-1-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
     color: #5EBEFF;
+}
+
+h3{
+    font-family: 'cosy_sansno_shade';
+    color: #5DA466;
 }
 
 h2 {
@@ -30,16 +29,15 @@ header h2 {
 }
 
 .site-footer {
-    background-image: #5DA466;
+    background-color: #5DA466;
+    color: black;
     padding: 20px 0;
 }
 
 .navbar {
     margin: 0;
     padding: 10px;
-    background-image: url("img/squiggle-small.jpg") !important;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
+    background: linear-gradient(to bottom, white 80%, transparent);
 }
 
 .nav-item .nav-link {
