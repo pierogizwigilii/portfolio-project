@@ -45,7 +45,7 @@ header h2 {
 }
 
 .hero-image {
-    background-image: src('img/worms-hero.gif');
+    background-image: url('img/worms-hero.gif') !important;
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
