@@ -29,23 +29,19 @@ header h2 {
 }
 
 .site-footer {
-    background-color: #5DA466;
+    background-color: #FF8DDF;
     color: black;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .navbar {
+    background-image: url('../img/pink-nav.png') !important;
     margin: 0;
     padding: 10px;
-    background: linear-gradient(to bottom, white 80%, transparent);
-}
-
-.nav-item .nav-link {
-    color: #5EBEFF !important;
 }
 
 .hero-image {
-    background-image: url('img/worms-hero.gif') !important;
+    background-image: url('../img/worm-hero-new.gif') !important;
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -60,4 +56,19 @@ header h2 {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
+
+#projectsTitle {
+    margin: 10;
+    padding: 30px;
+}
+
+#aboutTitle {
+    margin: 10;
+    padding: 30px;
+}
+
+#contactTitle {
+    margin: 10;
+    padding: 30px;
 }
